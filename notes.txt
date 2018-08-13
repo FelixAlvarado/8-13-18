@@ -7,3 +7,23 @@ What is the big O loopup time for a value in a binary search tree?
 logn n being the number of nodes 
 
 h with h being the height of the tree
+
+What is a round robin dns data binding? 
+
+Load balancing is performed by a DNS server instead of a strictly dedicated machine. 
+Different IP address being spat out each time. 
+
+What issue arises regarding session when implementing a load balancer? 
+
+Sessions will only be sent and svaed in a particular server. So making a new request might use another server. so the user would be propted to log in for practically n practically. 
+
+What is striping when talking about  writing to a hard drive? 
+
+Writing data in bits and peices to multiple hard drives depending on their peeds in order to incease the time it takes to write files to a hard drive. 
+
+What is RAID and what functionality can it give you?
+
+Redundany Array of Independent disks. 
+
+Different types. Allows for writing data to hard drives faster. Some increase scalability and other allows for reducdancy for just in case one power supply dies. Others allow for stripping and combinations of all sorts. 
+
