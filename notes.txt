@@ -1,0 +1,9 @@
+What are the contraints of a binary search tree?
+
+Every value to the left of a node be less than the node itself . every value to the right must be greater than it. 
+
+What is the big O loopup time for a value in a binary search tree? 
+
+logn n being the number of nodes 
+
+h with h being the height of the tree
