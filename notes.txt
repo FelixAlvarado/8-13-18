@@ -27,3 +27,8 @@ Redundany Array of Independent disks.
 
 Different types. Allows for writing data to hard drives faster. Some increase scalability and other allows for reducdancy for just in case one power supply dies. Others allow for stripping and combinations of all sorts. 
 
+Does JS assign variables by value or by reference? 
+
+Value 
+
+compound vaues like arrays and funcions are by reference. 
