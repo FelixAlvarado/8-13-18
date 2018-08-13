@@ -32,3 +32,13 @@ Does JS assign variables by value or by reference?
 Value 
 
 compound vaues like arrays and funcions are by reference. 
+
+What is a symbol when taling about transmitting data? 
+
+It's the voltage during a transmitted. The rate at which voltages are sent can tralate to a message. 
+
+How is information tranmitted over a wireless signal? 
+
+FM (frequency modulation) - modifying frequency 
+AM (amplitude modulations) - modifying amplitude. 
+they translate to difference messages. 
