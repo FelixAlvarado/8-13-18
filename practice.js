@@ -22,3 +22,16 @@ function myUnique(string) {
     }
     return true;
 }
+
+// value count binary tree 
+//2 chidren 
+//recursive call 
+//at base if child is nil and sum == value, return 1
+function valueCount(node,target, value = 0){
+    let sum = 0;
+    if (value + node.value === target){sum += 1;}
+    if (!node) {return 0;}
+    sum += valueCount(node, target, value) + valueCount(node.left, target, value + node.value) + valueCount(node.right, target, value + node.value);
+    return sum;
+
+}
