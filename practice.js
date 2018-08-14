@@ -13,3 +13,12 @@ function tripleStep(n, cache) {
     cache[n] = tripleStep(n - 1, cache) + tripleStep(n -2, cache) + tripleStep(n - 3, cache);
     return cache[n];
 }
+
+//unique string no additional data structures 
+
+function myUnique(string) {
+    for (let i = 0; i < string.length; i++){
+        if (string.slice(0,i).includes(string[i]) || string.slice(i + 1, -1).includes(string[i])){return false;}
+    }
+    return true;
+}
